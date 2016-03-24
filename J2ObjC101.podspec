@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
-  s.name = "J2ObjC"
+  s.name = "J2ObjC101"
   s.version = "1.0.1"
   s.license = { 
     :type => "MIT", 
     :file => "LICENSE" 
     }
   s.summary = "J2ObjC's 1.0.1 JRE emulation library, emulates a subset of the Java runtime library."
-  s.homepage = "https://github.com/AJ9UNiDAYS/j2objc-1"
+  s.homepage = "https://github.com/AJ9UNiDAYS/j2objc"
   s.author = { "Adam Gask" => "adam.gask@myunidays.com" }
   s.source = { 
-  :git => "https://github.com/AJ9UNiDAYS/j2objc-1.git", 
+  :git => "https://github.com/AJ9UNiDAYS/j2objc.git", 
   :tag => "#{s.version}"
   }
   s.platform = :ios
