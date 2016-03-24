@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.default_subspecs = "lib/jre"
   s.header_mappings_dir = "dist/include"
+  s.public_header_files = "dist/**/*.{h,m}"
 
   s.prepare_command = <<-CMD
     scripts/download_distribution.sh
