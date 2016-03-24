@@ -1,10 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "J2ObjC101"
   s.version = "1.0.1"
-  s.license = { 
-    :type => "MIT", 
-    :file => "LICENSE" 
-    }
+  s.license = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.summary = "J2ObjC's 1.0.1 JRE emulation library, emulates a subset of the Java runtime library."
   s.homepage = "https://github.com/AJ9UNiDAYS/j2objc"
   s.author = { "Adam Gask" => "adam.gask@myunidays.com" }
@@ -13,9 +10,9 @@ Pod::Spec.new do |s|
   :tag => "#{s.version}"
   }
   s.platform = :ios
+  s.default_subspec = 'lib/jre'
 
   s.requires_arc = true
-  s.default_subspecs = "lib/jre"
   s.header_mappings_dir = "dist/include"
   s.public_header_files = "dist/**/*.{h,m}"
 

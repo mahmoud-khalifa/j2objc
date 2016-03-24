@@ -23,6 +23,6 @@ if [[ -d dist ]]; then
 fi
 
 echo "fetching j2objc"
-curl -OL https://github.com/google/j2objc/releases/download/${j2objc_version}/j2objc-${j2objc_version}.zip
+curl -OL https://www.dropbox.com/s/vx8hmnq3mog6i9r/J2ObjC101.zip?dl=0
 unzip -o -q j2objc-${j2objc_version}.zip
 mv j2objc-${j2objc_version} dist
