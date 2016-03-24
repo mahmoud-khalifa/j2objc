@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = "j2objc"
+  s.name = "J2ObjC"
   s.version = "1.0.1"
   s.license = { 
     :type => "MIT", 
