@@ -24,5 +24,6 @@ fi
 
 echo "fetching j2objc"
 curl -OL https://www.dropbox.com/s/vx8hmnq3mog6i9r/J2ObjC101.zip
-unzip -o -q J2ObjC101.zip
-mv J2ObjC101 dist
+mkdir dist
+unzip -q J2ObjC101.zip
+rm -rf __MACOSX
