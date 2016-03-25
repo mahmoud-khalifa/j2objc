@@ -24,5 +24,5 @@ fi
 echo "fetching j2objc"
 curl -OL https://github.com/AJ9/j2objc/releases/download/${j2objc_version}/j2objc-${j2objc_version}.zip
 mkdir dist
-unzip -q J2ObjC101.zip
+unzip -q j2objc-${j2objc_version}.zip
 rm -rf __MACOSX
