@@ -23,7 +23,7 @@ if [[ -d dist ]]; then
 fi
 
 echo "fetching j2objc"
-curl -OL https://www.dropbox.com/s/vx8hmnq3mog6i9r/J2ObjC101.zip
+curl -OL https://github.com/AJ9/j2objc/releases/download/1.0.1.0/J2ObjC101.zip
 mkdir dist
 unzip -q J2ObjC101.zip
 rm -rf __MACOSX
