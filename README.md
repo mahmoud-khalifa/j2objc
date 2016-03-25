@@ -1,5 +1,7 @@
 # J2ObjC: Java to Objective-C Translator and Runtime #
 
+### This product is owned and maintained by Google. This repository/Cocoapod (J2ObjC101) has been created in good faith to allow others to use the J2ObjC 1.0.1 release as a Cocoapod. Should this break any laws or regulations, please contact me through [Github](https://github.com/AJ9) where I will remove this on request. ###
+
 [![Build Status](https://travis-ci.org/google/j2objc.svg)](https://travis-ci.org/google/j2objc)
 
 **Project site:** <http://j2objc.org><br>
