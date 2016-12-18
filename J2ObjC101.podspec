@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "J2ObjC101"
-  s.version = "1.0.1.1"
+  s.version = "1.0.2"
   s.license = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.summary = "J2ObjC's 1.0.1 JRE emulation library, emulates a subset of the Java runtime library."
   s.homepage = "https://github.com/AJ9/j2objc"

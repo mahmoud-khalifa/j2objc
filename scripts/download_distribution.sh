@@ -15,15 +15,15 @@ set -ev
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-j2objc_version=1.0.1
-tag=1.0.1.1
+j2objc_version=1.0.2
+tag=1.0.2
 
 if [[ -d dist ]]; then
   exit
 fi
 
 echo "fetching j2objc"
-curl -OL https://github.com/AJ9/j2objc/releases/download/${tag}/j2objc-1.0.1.zip
+curl -OL https://github.com/AJ9/j2objc/releases/download/${tag}/j2objc-1.0.2.zip
 mkdir dist
-unzip -q j2objc-1.0.1.zip
+unzip -q j2objc-1.0.2.zip
 rm -rf __MACOSX
